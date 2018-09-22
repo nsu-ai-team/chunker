@@ -43,11 +43,11 @@ Also there is the pretrained model for russian.
 
 ## Authors
 
-Anna Mosolova
++ Anna Mosolova
 
-Ivan Bondarenko
++ Ivan Bondarenko
 
-Vadim Fomin
++ Vadim Fomin
 
 
 See also the list of [contributors](https://github.com/nsu-ai/chunker/contributors) who participated in this project.
