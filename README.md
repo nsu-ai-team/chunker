@@ -28,7 +28,7 @@ Datasets for russian and english are available here: https://drive.google.com/op
 Also there is the pretrained model for russian.
 
 ### Commands
-*Dataset should be the file with three (or two) columns, wherу the first one is a word, the second one is its morphotags and the third one (optional) is its golden label. Columns should divided by ' ' and sentences should be divided by '\n'.*
+*Dataset should be the file with three (or two) columns, wherу the first one is a word, the second one is its morphotags and the third one (optional) is its golden label. Columns should divided by ' ' (by space) and sentences should be divided by '\n'.*
 
 + **Chunker.load(path_to_crf)** - load a model from pickle
 + **Chunker.fit(path_to_train, path_to_save_model)** - train a model using a dataset from path_to_train, then save it to path_to_save_model
