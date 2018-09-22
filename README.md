@@ -23,6 +23,9 @@ To use this project, run
 cd chunker
 from chunker import Chunker
 ```
+Datasets for russian and english are available here: https://drive.google.com/open?id=1BpWtEu1voKR314OkGIbY4MUsxi4DIk1A
+Also there is the pretrained model for russian.
+
 ### Examples of using Chunker:
 
 
