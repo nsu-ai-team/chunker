@@ -34,7 +34,6 @@ Also there is the pretrained model for russian.
 + **Chunker.fit(path_to_train, path_to_save_model)** - train a model using a dataset from path_to_train, then save it to path_to_save_model
 + **Chunker.predict(X, path_to_data, with_y)** - predict labels for X (already prepared dataset for crf) or dataset from path_to_data. with_y can be True if there are golden labels and False if there is not.
 + **Chunker.fit_transform(path_to_data)** - train a model on a dataset from path_to_data and then predict labels for it.
-### Examples of using Chunker:
 
 
 ## Contributing
