@@ -1,5 +1,5 @@
 # Chunker
-Chunker for russian and english (and other lamg==nguages, if you have a dataset)
+Chunker for russian and english (and other languages, if you have a dataset)
 
 ## Getting Started
 
