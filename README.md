@@ -9,7 +9,7 @@ You should have python3 installed on your machine (we recommend Anaconda3 packag
 pip3 install -r requirements.txt
 ```
 Installing and Usage
-Linux / MacOS
+Linux / MacOS / Windows
 To install this project on your local machine, you should run the following commands in Terminal:
 ```
 cd YOUR_FOLDER
@@ -18,11 +18,6 @@ git clone  https://github.com/nsu-ai/chunker
 ```
 The project is now in YOUR_FOLDER.
 
-To use this project, run
-```
-cd chunker
-from chunker import Chunker
-```
 Datasets for russian and english are available [here](https://drive.google.com/open?id=1BpWtEu1voKR314OkGIbY4MUsxi4DIk1A).
 
 
