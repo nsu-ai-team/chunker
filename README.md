@@ -27,6 +27,13 @@ Datasets for russian and english are available here: https://drive.google.com/op
 
 Also there is the pretrained model for russian.
 
+### Commands
+*Dataset should be the file with three (or two) columns, wherу the first one is a word, the second one is its morphotags and the third one (optional) is its golden label. Columns should divided by ' ' and sentences should be divided by '\n'.*
+
+**Chunker.load(path_to_crf)** - load a model from pickle
+**Chunker.fit(path_to_train, path_to_save_model)** - train a model using a dataset from path_to_train, then save it to path_to_save_model
+**Chunker.predict(X, path_to_data, with_y)** - predict labels for X (already prepared dataset for crf) or dataset from path_to_data. with_y can be True if there are golden labels and False if there is not.
+**Chunker.fit_transform(path_to_data)** - train a model on a dataset from path_to_data and then predict labels for it.
 ### Examples of using Chunker:
 
 
