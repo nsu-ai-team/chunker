@@ -18,6 +18,12 @@ git clone  https://github.com/nsu-ai/chunker
 ```
 The project is now in YOUR_FOLDER.
 
+To start in python:
+```
+from chunker import chunker
+my_chunker = chunker.Chunker()
+```
+
 Datasets for russian and english are available [here](https://drive.google.com/open?id=1BpWtEu1voKR314OkGIbY4MUsxi4DIk1A).
 
 
