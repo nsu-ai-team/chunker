@@ -50,7 +50,7 @@ Ivan Bondarenko
 Vadim Fomin
 
 
-See also the list of [contributors](https://github.com/nsu-ai/text_augmentation/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/nsu-ai/chunker/contributors) who participated in this project.
 
 ## License
 ## Acknowledgments
