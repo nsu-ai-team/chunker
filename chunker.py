@@ -7,6 +7,7 @@ from sklearn.base import BaseEstimator, ClassifierMixin
 
 class Chunker(BaseEstimator, ClassifierMixin):
     def __init__(self, verbose = True):
+       self.morph = pymorphy2.MorphAnalyzer()
        self.crf = sklearn_crfsuite.CRF(
                 algorithm='lbfgs',
                 c1=0.1,
