@@ -45,9 +45,6 @@ Also there is the pretrained model for russian.
 
 + Anna Mosolova
 
-+ Ivan Bondarenko
-
-+ Vadim Fomin
 
 
 See also the list of [contributors](https://github.com/nsu-ai/chunker/contributors) who participated in this project.
