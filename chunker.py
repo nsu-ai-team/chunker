@@ -103,8 +103,8 @@ class Chunker(BaseEstimator, ClassifierMixin):
             return self.crf.predict(X)
 
 
-    def fit_transform(self, path_to_data):
-        return self.fit(path_to_data).transform(path_to_data)
+    def fit_predict(self, path_to_data):
+        return self.fit(path_to_data).predict(path_to_data)
 
 if __name__ == '__main__':
     pass
