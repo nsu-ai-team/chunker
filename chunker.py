@@ -101,7 +101,19 @@ class Chunker(BaseEstimator, ClassifierMixin):
                 X = self.load_from_path(path_to_data, with_y = with_y)
 
             return self.crf.predict(X)
-
+        
+    def predict_sentence(self, sentence):
+        raw_sentence = re.sub('[^A-ЯЁа-я ё1-9]', '', sentence)
+        raw_sentence = re.sub(" +", ' ', raw_sentence)
+        words = raw_sentence.split()
+        X = [list()]
+        for word in words:
+            tag = str(self.morph.parse(word)[0].tag)
+            tags = tag.replace(" ", ",").split(",")
+            tags = self.new_tags(tags)
+            #tags.append(tag)
+            X[-1].append({'word': word, 'tags': tags})
+        return self.predict(X)
 
     def fit_predict(self, path_to_data):
         return self.fit(path_to_data).predict(path_to_data)
