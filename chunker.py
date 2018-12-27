@@ -1,3 +1,5 @@
+import re
+import pymorphy2
 import sklearn_crfsuite
 from sklearn.externals import joblib
 from sklearn.exceptions import NotFittedError
